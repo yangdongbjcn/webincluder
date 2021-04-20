@@ -53,6 +53,10 @@ WI基于PHP语言，PHP中的include函数可以将各个网页模块组合起�
 
 WI实现了前端网页的模块化，但实际的项目也包含后端代码。 本项目面向专利分析环境，给出了一些文本处理的小例子。
 
+本项目的可视化是对Echarts的封装。由于Echarts需要的数据是JSON格式，而专利数据库一般二维表格形式，本项目提供了从二维表到JSON结构的统计和转换功能。Echarts的功能强大导致其配置也比较复杂，本项目对其进行了封装和简化。
+
+本项目属于专利容器的可视化部分，使用JavaScript语言实现。本项目提供了基础版的专利分析可视化功能。包括提取国别、检索式解析、申请人标准化、提取公开号、提取DWPI号、年份直方图、统计IPC、气泡散点图、气泡矩阵图、世界地图、中国地图等多种图表。专利容器具体参见本人的Github项目，http://github.com/yangodongbjcn/patent-container
+
 1) 后台框架CodeIgniter
 
 CodeIgniter 是一个轻量级的PHP框架。 可从https://codeigniter.com/ 获得最新的CodeIgniter。解压之后，将文件夹重命名为server。
