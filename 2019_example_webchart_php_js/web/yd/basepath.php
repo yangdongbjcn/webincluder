@@ -21,6 +21,7 @@
 	$g_yd__analysis = $g_yd_patent . 'analysis/';
 	$g_yd__chart = $g_yd_patent . 'chart/';
 	$g_yd__database = $g_yd_patent  . 'database/';
+	$g_yd__map = $g_yd_patent . 'map/';
 
 	
 	$g_yd_science = $g_yd . 'science/';
@@ -32,10 +33,6 @@
 	$g_yd__mind = $g_yd_think . 'mind/';
 
 	
-	$g_yd_world = $g_yd . 'world/';
-	$g_yd__map = $g_yd_world . 'map/';
-
-
 	$g_bjzx = $g_web . 'bjzx/';
 	$g_bjzx_dj = $g_bjzx . 'dj/';
 

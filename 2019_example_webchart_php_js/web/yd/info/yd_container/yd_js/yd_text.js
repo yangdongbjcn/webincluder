@@ -119,6 +119,13 @@ function yd_url_decode(utf_string) {
 	return decodeURI(utf_string);
 }
 
+function yd_url_encode_b64(utf_string) {
+  return btoa(encodeURIComponent(utf_string));
+}
+
+function yd_url_decode_b64(utf_string) {
+  return decodeURIComponent(atob(utf_string));
+}
 
 function YdUrlJson(){
 }

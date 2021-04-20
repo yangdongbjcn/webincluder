@@ -1,5 +1,9 @@
 // 20210223--登陆之后默认的跳转界面
-t_url_after_login = g_var.g_yd__analysis;
+// 20210420--从URL参数中获取base64编码
+
+var t_array = yd_url_get_params('user_login.php');
+var t_url = t_array[0];
+t_url_after_login = yd_url_decode_b64(t_url);
 
 $(document).ready(function(){
 	$('#submit').click(function(){

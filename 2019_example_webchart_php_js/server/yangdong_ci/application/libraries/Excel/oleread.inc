@@ -38,8 +38,7 @@ class OLERead {
     var $data = '';
     
     
-    function OLERead(){
-        
+    function __construct(){
         
     }
     
