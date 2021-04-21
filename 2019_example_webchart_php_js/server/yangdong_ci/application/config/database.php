@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root_sql',
+	'username' => '???',
 	'password' => '???',
-	'database' => 'dxb_training',
+	'database' => '???',
 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

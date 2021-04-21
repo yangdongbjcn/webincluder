@@ -23,4 +23,22 @@ function f_init_iframe(urls) {
         $('#iframe' + i).attr('src', urls[i]['d_url']);
     }
 
+    // $('#daily_div').append("<iframe id='iframe0' width=100% height=500px></iframe>")
+    // $('#daily_div').append("<iframe id='iframe1' width=100% height=500px></iframe>")
+    // $('#daily_div').append("<iframe id='iframe2' width=100% height=500px></iframe>")
+
+    // var url0 = urls[0];
+    // if (url0) {
+    //     $('#iframe0').attr('src', url0['d_url']);
+    // }
+    // var url1 = urls[1];
+    // if (url1) {
+    //     $('#iframe1').attr('src', url1['d_url']);
+    // }
+    // var url2 = urls[2];
+    // if (url2) {
+    //     $('#iframe2').attr('src', url2['d_url']);
+    // }
 }
+
+

@@ -5,6 +5,10 @@
 <script src='<?php echo $g_yd__resources ?>bootstrap_ie8/html5shiv.min.js'></script>
 <![endif]-->
 
+<!--[if IE]>
+<script src="<?php echo $g_yd__resources ?>base64-polyfill.js"></script>
+<![endif]-->
+
 <script src='<?php echo $g_yd__includes ?>/end.js'></script>
 
 </body>
