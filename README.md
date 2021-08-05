@@ -7,16 +7,17 @@ Webpage Includer tries to seperate web pages into web page components, and each 
 In this library, please do not change the names of folders 'web' and 'server'. If you have to change them, please modify the basepath.js and basepath.php, replace 'web' and 'server' with your own names.
 
 
-2.1 Subfolder "2019_webpage_includer"
+2.1 Subfolder "2018_webpage_includer"
 
 It does not contain any backend codes.
 
-2.2 Subfolder "2020_webchart_php_js"
+2.2 Subfolder "2019_webchart_php_js"
 
 It contains both frontend and backend codes.
 
-
 If you have any question, please search 'yangdongpatent' in WeChat App. 
+
+
 
 
 2. 中文说明
@@ -31,7 +32,7 @@ WI基于PHP语言，PHP中的include函数可以将各个网页模块组合起�
 
 如果您只需要前端网页模块化，请使用“2019_webpage_includer”文件夹。如果您前端和后端代码都需要，请使用“2020_webchart_php_js”文件夹。
 
-2.1 前端网页模块化 2019_webpage_includer
+2.1 前端网页模块化 2018_webpage_includer
 
 一个PHP页面代码被拆分为三部分:
 1) before.php 为页头，包括初始化、顶部菜单，左边菜单；
@@ -49,7 +50,7 @@ WI基于PHP语言，PHP中的include函数可以将各个网页模块组合起�
 1) 页面的footer，用于显示版权、联系方式等内容;
 2）html页面结束部分，end.php。
 
-2.2 前后端分离 2020_webchart_php_js
+2.2 前后端分离 2019_webchart_php_js
 
 WI实现了前端网页的模块化，但实际的项目也包含后端代码。 本项目面向专利分析环境，给出了一些文本处理的小例子。
 
