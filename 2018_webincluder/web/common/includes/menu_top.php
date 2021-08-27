@@ -7,7 +7,7 @@
 	<div class='navbar navbar-default' role='navigation'>
 			
 		<ul class='nav navbar-nav'>
-			<li><a href='https://github.com/yangdongbjcn/webpage-includer'>Visit in GitHub</a></li>
+			<li><a href='https://github.com/yangdongbjcn/webincluder'>Visit in GitHub</a></li>
 
 			<li class='drop-down' >
 				<a class='dropdown-toggle' data-toggle='dropdown'>
@@ -16,7 +16,7 @@
 					<span class='caret'></span>
 				</a>
 				<ul class='dropdown-menu'>
-					<li><a href='https://github.com/yangdongbjcn/webpage-includer'>Visit in GitHub</a></li>
+					<li><a href='https://github.com/yangdongbjcn/webincluder'>Visit in GitHub</a></li>
 				</ul>
 			</li>
 		</ul>

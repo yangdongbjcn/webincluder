@@ -6,7 +6,7 @@
 				<tbody>
 					<tr>
 						<td>Name</td>
-						<td>Webpage Includer</td>
+						<td>Web Includer</td>
 					</tr>
 					<tr>
 						<td>Contributer</td>
@@ -14,7 +14,7 @@
 					</tr>
 					<tr>
 						<td>Website</td>
-						<td><a href='https://github.com/yangdongbjcn/webpage-includer'>https://github.com/yangdongbjcn/webpage-includer</a></td>
+						<td><a href='https://github.com/yangdongbjcn/webincluder'>https://github.com/yangdongbjcn/webincluder</a></td>
 					</tr>
 				</tbody>
 			</table>

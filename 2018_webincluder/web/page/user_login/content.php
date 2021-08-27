@@ -5,14 +5,14 @@
       
     <div>
       <ul class='nav nav-pills pull-right'>
-        <li><a href='https://github.com/yangdongbjcn/webpage-includer'>Visit in GitHub</a></li>
+        <li><a href='https://github.com/yangdongbjcn/webincluder'>Visit in GitHub</a></li>
       </ul>
-      <h3>Webpage Includer</h3>
+      <h3>Web Includer</h3>
     </div>
 
     <div class='well center'>
       <p>
-      Webpage Includer tries to seperate html pages into components, which include their own JavaScript and CSS codes. Webpage Includer uses PHP include function to reuse these page components.
+      Web Includer tries to seperate html pages into components, which include their own JavaScript and CSS codes. Web Includer uses PHP include function to reuse these page components.
       </p>
       <div class='input-group'>
         <span class='input-group-addon'>User Name</span>

@@ -5,7 +5,7 @@
 
 	<meta http-equiv='X-UA-Compatible' content='IE=9' />
 
-	<title>Webpage Includer</title>
+	<title>Web Includer</title>
 
 	<link rel='stylesheet' href='<?php echo $g_resc ?>bootstrap/css/bootstrap.css'>
 

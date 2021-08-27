@@ -12,8 +12,7 @@
 		<li><a href='zlrq/'>专利容器</a></li>
 		<li class='nav-header hidden-tablet'>GitHub</li>
 		<li><a href='https://github.com/yangdongbjcn/patent-container'>patent-container</a></li>
-		<li><a href='https://github.com/yangdongbjcn/webpage-includer'>webpage-includer</a></li>
-		<li><a href='https://github.com/yangdongbjcn/webpage-includer-codeigniter'>webpage-includer-codeigniter</a></li>
+		<li><a href='https://github.com/yangdongbjcn/webincluder'>webincluder</a></li>
 		<li><a href='https://github.com/yangdongbjcn/PaReLab'>PaReLab</a></li>
 	</ul>
 </div><!--span 2-->
