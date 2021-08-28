@@ -39,7 +39,7 @@ WI基于PHP语言，PHP中的include函数可以将各个网页模块组合起�
 2）html页面结束部分，end.php。
 
 
-（2） 子文件夹 2019_example_webchart_php_js
+（2） 子文件夹 2019_webchart
 
 这个例子包含前端和后端代码。前端代码在文件夹“web”中，后端代码在文件夹“server”中。
 
@@ -69,7 +69,6 @@ CodeIgniter默认的数据库增删改查操作，会产生较多的重复代码
 （3）更多的内容，将收录在微信公众号yangdongpatent（专利容器）。
 
 在线专利分析小工具，可访问网站http://zlrq.cn。
-
 
 
 2. Introduction in English 
