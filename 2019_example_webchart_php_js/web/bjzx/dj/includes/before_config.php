@@ -1,1 +1,0 @@
-<script src="<?php echo $g_bjzx_dj ?>includes/before_config.js"></script>
