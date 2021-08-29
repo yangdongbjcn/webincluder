@@ -1,5 +1,5 @@
 <?php
-	include('../../../info/includes/menu_right.php');
-	include('../../../info/includes/footer.php'); 
-	include('../../../info/includes/end.php');
+	include('../../../../common_web/includes/menu_right.php');
+	include('../../../../common_web/includes/footer.php'); 
+	include('../../../../common_web/includes/end.php');
 ?>

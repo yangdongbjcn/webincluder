@@ -1,15 +1,15 @@
 <?php
 	include('../../../../basepath.php');	 
-	include('../../../../info/includes/begin.php');
-	include('../../../../info/includes/menu_top.php');
-	include('../../../../info/includes/menu_left.php'); 
+	include('../../../../../common_web/includes/begin.php');
+	include('../../../../../common_web/includes/menu_top.php');
+	include('../../../../../common_web/includes/menu_left.php'); 
 ?>
 	
 	<link rel='stylesheet' href='beijing_regions/content.css'>
 	<script type='text/javascript' src='beijing_regions/content.js'></script>
 <?php
 	include('beijing_regions/content.php');
-	include('../../../../info/includes/menu_right.php');
-	include('../../../../info/includes/footer.php'); 
-	include('../../../../info/includes/end.php');
+	include('../../../../../common_web/includes/menu_right.php');
+	include('../../../../../common_web/includes/footer.php'); 
+	include('../../../../../common_web/includes/end.php');
 ?>

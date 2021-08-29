@@ -4,11 +4,13 @@
 	
 	$g_web = getParent($t_url, 'zlrqweb') . '/';
 
+	$g_web_father = dirname($g_web) . '/';
+
 	$g_yd_about = $g_web . 'about/';
 	$g_yd__yangdong = $g_yd_about . 'yangdong/';
 
 	
-	$g_yd_info = $g_web . 'info/';
+	$g_yd_info = $g_web_father . 'common_web/';
 	$g_yd__includes = $g_yd_info . 'includes/';
 	$g_yd__pages = $g_yd_info . 'pages/';
 	$g_yd__resources = $g_yd_info . 'resources/';
@@ -26,23 +28,6 @@
 	$g_yd_science = $g_web . 'science/';
 	$g_yd__hybrid_ai = $g_yd_science . 'hybrid_ai/';
 
-	
-	$g_yd_think = $g_web . 'think/';
-	$g_yd__way = $g_yd_think . 'way/';
-	$g_yd__mind = $g_yd_think . 'mind/';
-
-	
-	$g_bjzx = $g_web . 'bjzx/';
-	$g_bjzx_dj = $g_bjzx . 'dj/';
-
-
-	$g_dxb = $g_web . 'dxb/';
-	$g_dxb_info = $g_dxb . 'info/';
-	$g_dxb_training = $g_dxb . 'training/';
-	$g_dxb_daily = $g_dxb . 'daily/';
-	$g_dxb_dj = $g_dxb . 'dj/';
-
-	
 	function getParent($t_url, $t_key) {
 		while(basename($t_url) != $t_key) {
 		  $t_url = dirname($t_url);
