@@ -19,7 +19,7 @@
 
 <body>
 
-<script type='text/javascript' src='<?php echo $g_yd ?>basepath.js'></script>
+<script type='text/javascript' src='<?php echo $g_web ?>basepath.js'></script>
 
 <script src='<?php echo $g_yd__resources ?>echarts/echarts.js'></script>
 

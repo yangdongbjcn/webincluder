@@ -3,13 +3,12 @@
 	$t_url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	
 	$g_web = getParent($t_url, 'zlrqweb') . '/';
-	$g_yd = $g_web . 'yd/';
 
-	$g_yd_about = $g_yd . 'about/';
+	$g_yd_about = $g_web . 'about/';
 	$g_yd__yangdong = $g_yd_about . 'yangdong/';
 
 	
-	$g_yd_info = $g_yd . 'info/';
+	$g_yd_info = $g_web . 'info/';
 	$g_yd__includes = $g_yd_info . 'includes/';
 	$g_yd__pages = $g_yd_info . 'pages/';
 	$g_yd__resources = $g_yd_info . 'resources/';
@@ -17,18 +16,18 @@
 	$g_yd__data = $g_yd_info . 'yd_data/';
 
 	
-	$g_yd_patent = $g_yd . 'patent/';
+	$g_yd_patent = $g_web . 'patent/';
 	$g_yd__analysis = $g_yd_patent . 'analysis/';
 	$g_yd__chart = $g_yd_patent . 'chart/';
 	$g_yd__database = $g_yd_patent  . 'database/';
 	$g_yd__map = $g_yd_patent . 'map/';
 
 	
-	$g_yd_science = $g_yd . 'science/';
+	$g_yd_science = $g_web . 'science/';
 	$g_yd__hybrid_ai = $g_yd_science . 'hybrid_ai/';
 
 	
-	$g_yd_think = $g_yd . 'think/';
+	$g_yd_think = $g_web . 'think/';
 	$g_yd__way = $g_yd_think . 'way/';
 	$g_yd__mind = $g_yd_think . 'mind/';
 
