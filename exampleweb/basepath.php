@@ -2,7 +2,7 @@
 
 	$t_url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	
-	$g_root = getParent($t_url, 'web') . '/';
+	$g_root = getParent($t_url, 'exampleweb') . '/';
 
 	$g_comn = $g_root . 'common/';
 	$g_resc = $g_comn . 'resources/';

@@ -2,7 +2,7 @@
 
 	$t_url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	
-	$g_web = getParent($t_url, 'web') . '/';
+	$g_web = getParent($t_url, 'zlrqweb') . '/';
 	$g_yd = $g_web . 'yd/';
 
 	$g_yd_about = $g_yd . 'about/';

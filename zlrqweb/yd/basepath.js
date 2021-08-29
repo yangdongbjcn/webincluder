@@ -1,10 +1,10 @@
-var t_url = location.href.split('web/');
+var t_url = location.href.split('zlrqweb/');
 
 var g_var = {}; 
 
 g_var.g_web_father = t_url[0];
 
-g_var.g_web = g_var.g_web_father + 'web/';
+g_var.g_web = g_var.g_web_father + 'zlrqweb/';
 
 g_var.g_yd = g_var.g_web + 'yd/';
 
@@ -35,7 +35,7 @@ g_var.g_dxb_daily = g_var.g_dxb + 'daily/';
 g_var.g_dxb_dj = g_var.g_dxb + 'dj/';
 
 
-g_var.gs_server = g_var.g_web_father + 'server/yangdong_ci/index.php/';
+g_var.gs_server = g_var.g_web_father + 'zlrqserver/yangdong_ci/index.php/';
 
 g_var.gs_yd = g_var.gs_server + 'yd/';
 g_var.gs_yd_text = g_var.gs_yd + 'text/';

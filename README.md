@@ -9,16 +9,13 @@ Web Includer （以下简称WI） 试图将网页分割成一个个网页模块�
 
 WI基于PHP语言，PHP中的include函数可以将各个网页模块组合起来，成为一个完整的网页。
 
-请不要修改文件夹名“web”和“server”，因为这两个名字用来确定网页的绝对路径。
+请不要修改文件夹名“exampleweb”、“zlrqweb”、“zlrqserver”等名字，因为这几个名字用来确定网页的绝对路径。
 
-请确保在您网页的URL中只有一个“web”。请确保您网页的URL中只有一个“server”。
+请确保在您网页的URL中这些名字都是唯一的。所以，这也是这个项目最大的问题。
 
-如果想修改这两个文件夹名，请在使用之前修改basepath.js和basepath.php，将其中的“web”和“server”替换为您实际的文件夹名。
+如果想修改这些文件夹名，请在使用之前修改basepath.js和basepath.php，将其中的“exampleweb”等名字替换为您实际的文件夹名。
 
-如果您只需要前端网页模块化，请使用“2019_webincluder”文件夹。如果您前端和后端代码都需要，请使用“2020_webchart_php_js”文件夹。
-
-
-（1） 子文件夹 2018_webincluder
+（1） 子文件夹 exampleweb
 
 这是webincluder的最简单的例子。不包含任何后端代码。
 
@@ -38,10 +35,9 @@ WI基于PHP语言，PHP中的include函数可以将各个网页模块组合起�
 1) 页面的footer，用于显示版权、联系方式等内容;
 2）html页面结束部分，end.php。
 
+（2） 子文件夹 zlrqweb
 
-（2） 子文件夹 2019_webchart
-
-这个例子包含前端和后端代码。前端代码在文件夹“web”中，后端代码在文件夹“server”中。
+这个例子包含前端和后端代码。前端代码在文件夹“zlrqweb”中，后端代码在文件夹“zlrqserver”中。
 
 1）这个例子是为专利分析生产在线图表。
 
@@ -65,8 +61,7 @@ CodeIgniter默认的数据库增删改查操作，会产生较多的重复代码
 
 本项目将常用的增删改查操作抽象为library，在CodeIgniter的model中可以方便地复用。只需要指定所有字段，就可以快速实现。
 
-
-（3）更多的内容，将收录在微信公众号yangdongpatent（专利容器）。
+（3） 更多的内容，将收录在微信公众号yangdongpatent（专利容器）。
 
 在线专利分析小工具，可访问网站http://zlrq.cn。
 
@@ -77,23 +72,23 @@ Web Includer (WI) tries to seperate web pages into web page components, and each
 
 WI is based on PHP programming language. The PHP function 'include' is used to include page components into a complete web page. 
 
-Please do not change the names of folders 'web' and 'server', because these names are used to determine the absolute path. 
+Please do not change the names of folders 'exampleweb', 'zlrqweb' and 'zlrqserver', because these names are used to determine the absolute path. 
 
-Please make sure there is only one 'web' in any URL of your website. Please make sure there is only one 'server' in any URL of your website.
+Please make sure there names are unique in any URL of your website. And this is the biggest problem of this project.
 
-If you have to change these two folder names, please modify the basepath.js and basepath.php, replace 'web' and 'server' with your own names.
+If you have to change these two folder names, please modify the basepath.js and basepath.php, replace 'exampleweb' and other names with your own names.
 
 
-(1) Subfolder "2018_webincluder"
+（1） Subfolder "exampleweb"
 
 It is the simplest example of webincluder. It does not contain any backend codes.
 
-(2) Subfolder "2019_webchart_php_js"
+（2） Subfolder "zlrqweb"
 
-This example contains both frontend and backend codes. The frontend codes are in the folder 'web', and the backend codes are in the folder 'server'.
+This example contains both frontend and backend codes. The frontend codes are in the folder 'zlrqweb', and the backend codes are in the folder 'zlrqserver'.
 
 This example is about generating online charts for patent analysis. 
 
-（3）If you have any question, please search 'yangdongpatent' in WeChat App. 
+（3） If you have any question, please search 'yangdongpatent' in WeChat App. 
 
 Please visit http://zlrq.cn, for a simple online patent analysis toolkit.
