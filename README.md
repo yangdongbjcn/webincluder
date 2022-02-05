@@ -9,61 +9,35 @@ Web Includer （以下简称WI） 试图将网页分割成一个个网页模块�
 
 WI基于PHP语言，PHP中的include函数可以将各个网页模块组合起来，成为一个完整的网页。
 
-请不要修改文件夹名“exampleweb”、“zlrqweb”、“zlrqserver”等名字，因为这几个名字用来确定网页的绝对路径。
+请不要修改文件夹名“wiweb”、“wicommon”等名字，因为这几个名字用来确定网页的绝对路径。
 
-请确保在您网页的URL中这些名字都是唯一的。所以，这也是这个项目最大的问题。
+请确保在您网页的URL中这些名字都是唯一的。
 
-如果想修改这些文件夹名，请在使用之前修改basepath.js和basepath.php，将其中的“exampleweb”等名字替换为您实际的文件夹名。
+如果想修改这些文件夹名，请在使用之前修改basepath.js和basepath.php，将其中的“wiweb”等名字替换为您实际的文件夹名。
 
-（1） 子文件夹 exampleweb
+（1） 子文件夹 wiweb
 
 这是webincluder的最简单的例子。不包含任何后端代码。
 
-一个PHP页面代码被拆分为三部分:
+一个PHP页面被拆分为三部分:
 1) before.php 为页头，包括初始化、顶部菜单，左边菜单；
 2) after.php 为页尾，包括右边菜单；
-3) 其余的部分为页中，即与daily逻辑相关的内容；都存放在子文件夹daily中。
+3) 其余的部分为与当前页码相关的内容，包括 content.css、content.js、content.php。
 
 其中，before.php 的页面内容：
 1）路径约定，basepath.php；
 2）html页面开始部分，begin.php；
-3）初始化内容，before_config.php；
-4）顶部菜单，menu_top.php；
-5）左边菜单，menu_left。
+3）顶部菜单，menu_top.php；
 
 其中，after.php 的页面内容：
-1) 页面的footer，用于显示版权、联系方式等内容;
+1) 页面的footer，用于显示版权、联系方式等内容；
 2）html页面结束部分，end.php。
 
-（2） 子文件夹 zlrqweb
+（2） 子文件夹 wicommon
 
-这个例子包含前端和后端代码。前端代码在文件夹“zlrqweb”中，后端代码在文件夹“zlrqserver”中。
-
-1）这个例子是为专利分析生产在线图表。
-
-具体来说，图表可视化是对Echarts的封装。Echarts的功能强大导致其配置也比较复杂，本项目对其进行了封装和简化。
-
-由于Echarts需要的数据是JSON格式，而专利数据库一般二维表格形式，本项目提供了从二维表到JSON结构的统计和转换功能。
-
-该例子包括提取国别、检索式解析、申请人标准化、提取公开号、提取DWPI号、年份直方图、统计IPC、气泡散点图、气泡矩阵图、世界地图、中国地图等多种图表。
-
-更多专利分析，请参见本人的Github项目专利容器，http://github.com/yangodongbjcn/patent-container
-
-2) 后台框架CodeIgniter
-
-CodeIgniter 是一个轻量级的PHP框架。 可从https://codeigniter.com/ 获得最新的CodeIgniter。解压之后，将文件夹重命名为server。
-
-但CodeIgniter的默认前端代码目录，使用起来并不方便。
-
-本项目基于前后端分离的想法，将前端代码从CodeIgniter中分离出去。前端代码需要独立的路由机制，因此使用WI的实现方式，文件夹web中存放的是前端代码。
-
-CodeIgniter默认的数据库增删改查操作，会产生较多的重复代码。
-
-本项目将常用的增删改查操作抽象为library，在CodeIgniter的model中可以方便地复用。只需要指定所有字段，就可以快速实现。
-
-（3） 更多的内容，将收录在微信公众号yangdongpatent（专利容器）。
-
-在线专利分析小工具，可访问网站http://zlrq.cn。
+这是所有页面共享的内容，包括：
+1）includes文件夹，包括共享的页面组件，例如begein.php、menu_top.php；
+2）resources文件夹，包括第三方库，例如bootstrap、jquery。
 
 
 2. Introduction in English 
@@ -72,23 +46,42 @@ Web Includer (WI) tries to seperate web pages into web page components, and each
 
 WI is based on PHP programming language. The PHP function 'include' is used to include page components into a complete web page. 
 
-Please do not change the names of folders 'exampleweb', 'zlrqweb' and 'zlrqserver', because these names are used to determine the absolute path. 
+Please do not change the names of folders 'wiweb' and 'wicommon', because these names are used to determine the absolute path. 
 
 Please make sure there names are unique in any URL of your website. And this is the biggest problem of this project.
 
 If you have to change these two folder names, please modify the basepath.js and basepath.php, replace 'exampleweb' and other names with your own names.
 
-
-（1） Subfolder "exampleweb"
+(1) Subfolder "wiweb"
 
 It is the simplest example of webincluder. It does not contain any backend codes.
 
-（2） Subfolder "zlrqweb"
+A PHP page is divided into three parts:
 
-This example contains both frontend and backend codes. The frontend codes are in the folder 'zlrqweb', and the backend codes are in the folder 'zlrqserver'.
+1) before. PHP is the page header, including initialization, top menu and left menu;
 
-This example is about generating online charts for patent analysis. 
+2) after. PHP is the end of the page, including the menu on the right;
 
-（3） If you have any question, please search 'yangdongpatent' in WeChat App. 
+3) The rest is related to the current page number, including content css、content. js、content. php.
 
-Please visit http://zlrq.cn, for a simple online patent analysis toolkit.
+Where, before.php page content:
+
+1) Path convention, basepath php;
+
+2) At the beginning of the HTML page, begin php;
+
+3) Top menu_ top. php;
+
+Where, after.php page content:
+
+1) The footer of the page is used to display copyright, contact information and other contents;
+
+2) HTML page end, end php.
+
+(2) Subfolder wicommon
+
+These are the content shared by all pages, including:
+
+1) Includes folder, including shared page components, such as begein php、menu_ top. php;
+
+2) Resources folder, including third-party libraries, such as bootstrap and jQuery.
